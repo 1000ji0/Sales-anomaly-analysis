@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# 시스템
+.DS_Store
+.python-version
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# 문서
+*.pptx
+~$*.pptx
+*.csv
+*.xlsx
+*.zip
+data/
